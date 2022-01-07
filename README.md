@@ -18,6 +18,7 @@ $ protoc --js_out=import_style=commonjs,binary:. employees.proto
 ### Compare JSON and Protobuf Data size
 
 > [max@workstation grpc-series-protobuf-js]$ ls -al
+
 | Size |   Filename    | Method   |
 |------|---------------|----------|
 | 123  | employees.json| JSON     |
@@ -26,6 +27,7 @@ $ protoc --js_out=import_style=commonjs,binary:. employees.proto
 ## Output of examples
 
 > [max@workstation grpc-series-protobuf-js]$ node protobuf.js 
+
 ```
 Ali name is: ALI
 Reza name is: REZA
@@ -36,6 +38,7 @@ Read data from bytes: 1001,ALI,50001,1002,REZA,50002,1003,JAVAD,50003
 ```
 
 > [max@workstation grpc-series-protobuf-js]$ node json.js 
+
 ```
 Ali name is: ALI
 Reza name is: REZA
@@ -52,6 +55,7 @@ You need to install `protoc` program on your system, you can download it from ht
 Next you can run `bin/protoc` by typing its full path.
 
 For example:
+
 ```bash
 $ /to-the-path/bin/protoc --js_out=import_style=commonjs,binary:. /your-source-path/employees.proto
 ```
