@@ -1,5 +1,7 @@
 # First Protobuf (`.proto`) Javascript
 
+> A quick and practical look at Protobuf. 
+
 If you know what is **JSON** and how its work, you can see how much **Proto-Buf** is easy.
 
 What you dont know you think its hard but when you start to test and working on, you will see its easy.
