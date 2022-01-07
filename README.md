@@ -42,9 +42,9 @@ Read data from bytes: 1001,ALI,50001,1002,REZA,50002,1003,JAVAD,50003
 ```
 Ali name is: ALI
 Reza name is: REZA
-Javad name is: REZA
+Javad name is: JAVAD
 Data: [object Object],[object Object],[object Object]
-JSON: [{"id":1001,"name":"ALI","salary":50001},{"id":1002,"name":"REZA","salary":50002},{"id":1002,"name":"REZA","salary":50002}]
+JSON: [{"id":1001,"name":"ALI","salary":50001},{"id":1002,"name":"REZA","salary":50002},{"id":1003,"name":"JAVAD","salary":50003}]
 Read data from JSON: [object Object],[object Object],[object Object]
 ```
 
