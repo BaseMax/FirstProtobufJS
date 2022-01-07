@@ -1,0 +1,23 @@
+{
+  "name": "grpc-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaseMax/gRPC-JS.git"
+  },
+  "author": "Max Base",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/BaseMax/gRPC-JS/issues"
+  },
+  "homepage": "https://github.com/BaseMax/gRPC-JS#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.9",
+    "google-protobuf": "^3.19.2"
+  }
+}
