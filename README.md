@@ -62,7 +62,7 @@ $ /to-the-path/bin/protoc --js_out=import_style=commonjs,binary:. /your-source-p
 
 ### Setup protoc globally on your system
 
-If you want to install/setup it globally you have to mv `bin` and `include` directory to your system directory.
+If you want to install/setup it globally you have to put `bin` and `include` directory to your system directory.
 
 You need to copy these directory to the system **dir**:
 - `bin` -> `/usr/bin/`
