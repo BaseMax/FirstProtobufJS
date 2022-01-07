@@ -17,6 +17,7 @@ $ protoc --js_out=import_style=commonjs,binary:. employees.proto
 
 ### Compare JSON and Protobuf Data size
 
+> [max@workstation grpc-series-protobuf-js]$ ls -al
 | Size |   Filename    | Method   |
 |------|---------------|----------|
 | 123  | employees.json| JSON     |
@@ -24,7 +25,7 @@ $ protoc --js_out=import_style=commonjs,binary:. employees.proto
 
 ## Output of examples
 
-> [max@workstation gRPC-JS]$ node protobuf.js 
+> [max@workstation grpc-series-protobuf-js]$ node protobuf.js 
 ```
 Ali name is: ALI
 Reza name is: REZA
@@ -34,7 +35,7 @@ Binary: 10,13,8,233,7,18,3,65,76,73,29,0,81,67,71,10,14,8,234,7,18,4,82,69,90,65
 Read data from bytes: 1001,ALI,50001,1002,REZA,50002,1003,JAVAD,50003
 ```
 
-> [max@workstation gRPC-JS]$ node json.js 
+> [max@workstation grpc-series-protobuf-js]$ node json.js 
 ```
 Ali name is: ALI
 Reza name is: REZA
