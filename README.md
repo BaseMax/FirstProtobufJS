@@ -1,4 +1,4 @@
-# gRPC-JS
+# First Protobuf (`.proto`) Javascript
 
 ## Build proto scheme
 
