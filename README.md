@@ -1,6 +1,6 @@
 # First Protobuf (`.proto`) Javascript
 
-> A quick and practical look at Protobuf. 
+### A quick and practical look at Protobuf. 
 
 If you know what is **JSON** and how its work, you can see how much **Proto-Buf** is easy.
 
@@ -13,6 +13,35 @@ What you dont know you think its hard but when you start to test and working on,
 
 ```bash
 $ protoc --js_out=import_style=commonjs,binary:. employees.proto
+```
+
+### Compare JSON and Protobuf Data size
+
+| Size |   Filename    | Method   |
+|------|---------------|----------|
+| 123  | employees.json| JSON     |
+| 48   | employees.bin | Protobuf |
+
+## Output of examples
+
+> [max@workstation gRPC-JS]$ node protobuf.js 
+```
+Ali name is: ALI
+Reza name is: REZA
+Javad name is: JAVAD
+Data: 1001,ALI,50001,1002,REZA,50002,1003,JAVAD,50003
+Binary: 10,13,8,233,7,18,3,65,76,73,29,0,81,67,71,10,14,8,234,7,18,4,82,69,90,65,29,0,82,67,71,10,15,8,235,7,18,5,74,65,86,65,68,29,0,83,67,71
+Read data from bytes: 1001,ALI,50001,1002,REZA,50002,1003,JAVAD,50003
+```
+
+> [max@workstation gRPC-JS]$ node json.js 
+```
+Ali name is: ALI
+Reza name is: REZA
+Javad name is: REZA
+Data: [object Object],[object Object],[object Object]
+JSON: [{"id":1001,"name":"ALI","salary":50001},{"id":1002,"name":"REZA","salary":50002},{"id":1002,"name":"REZA","salary":50002}]
+Read data from JSON: [object Object],[object Object],[object Object]
 ```
 
 ## Download `protoc`
