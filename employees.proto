@@ -9,5 +9,3 @@ message Employee {
 message Employees {
 	repeated Employee employees = 1;	
 }
-
-
