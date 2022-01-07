@@ -17,9 +17,9 @@ console.log(`Reza name is: ${reza["name"]}`);
 
 // Test Schema
 const javad = {};
-javad["id"] = 1002;
-javad["name"] = "REZA";
-javad["salary"] = 50002;
+javad["id"] = 1003;
+javad["name"] = "JAVAD";
+javad["salary"] = 50003;
 console.log(`Javad name is: ${javad["name"]}`);
 
 // Test Schema
