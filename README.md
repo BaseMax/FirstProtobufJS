@@ -38,3 +38,6 @@ Maybe, A command to help you:
 $ cp -a * /usr/
 ```
 
+## Go next
+
+If you want to learn protobuf funcitonally deeply, you can check and read the generated file by Protoc at [`employees_pb.js`](employees_pb.js). [c](https://www.youtube.com/watch?v=46O73On0gyI)
