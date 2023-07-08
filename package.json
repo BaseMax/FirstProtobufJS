@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/BaseMax/gRPC-JS#readme",
   "dependencies": {
-    "@grpc/proto-loader": "^0.6.9",
+    "@grpc/proto-loader": "^0.7.7",
     "google-protobuf": "^3.19.2"
   }
 }
